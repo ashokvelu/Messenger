@@ -1,0 +1,30 @@
+package com.prod1;
+
+import java.net.UnknownHostException;
+
+import com.mongodb.MongoClient;
+import com.mongodb.MongoException;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	try
+    	{
+    		MongoClient site = new MongoClient("localhost",27017);	
+    	}
+        catch(UnknownHostException e)
+    	{
+        	e.printStackTrace();
+    	}
+    	catch(MongoException e)
+    	{
+    		e.printStackTrace();
+    	}
+        
+    }
+}

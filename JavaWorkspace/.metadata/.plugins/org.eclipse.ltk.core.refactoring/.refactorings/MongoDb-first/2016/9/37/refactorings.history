@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;MongoDb-first/src/test/java/MongoDb-first-pkg&apos; to &apos;MongoDb&apos;" description="Rename resource &apos;MongoDb-first-pkg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/java/MongoDb-first-pkg" name="MongoDb" stamp="1473381744455" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;MongoDb-first/src/main/java/MongoDb-first-pkg&apos; to &apos;MongoDb&apos;" description="Rename resource &apos;MongoDb-first-pkg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/MongoDb-first-pkg" name="MongoDb" stamp="1473381756441" updateReferences="true"/>
+</session>

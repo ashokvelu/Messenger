@@ -1,0 +1,20 @@
+package com.Mongo.core;
+
+import java.net.UnknownHostException;
+import java.util.Date;
+import com.Mongo.*;
+import com.Mongo.core.*;
+import com.mongodb.*;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        MongoCLient mongo = new MongoClient("localhost",27017);
+        System.out.println("hello");
+    }
+}
